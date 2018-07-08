@@ -7,9 +7,9 @@ export class Model{
         this.items = 
         [
             new TodoItem("1", false),
-            new TodoItem("1", false),
-            new TodoItem("1", false),
-            new TodoItem("1", false)
+            new TodoItem("2", true),
+            new TodoItem("3", true),
+            new TodoItem("4", false)
         ];
     }
 }
